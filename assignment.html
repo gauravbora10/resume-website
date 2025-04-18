@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Bora | Digital Business Student</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #2A5C82;
+            --accent-blue: #3A8BBA;
+            --dark-bg: #1A1A1A;
+            --light-text: #F0F4F8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Navigation */
+        .nav-bar {
+            background-color: var(--primary-blue);
+            padding: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav-bar h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 1.8rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            border-bottom: 2px solid var(--accent-blue);
+        }
+
+        .hero h2 {
+            color: var(--accent-blue);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Education Section */
+        .education {
+            margin: 3rem 0;
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .education h3 {
+            color: var(--accent-blue);
+            margin-bottom: 1.5rem;
+        }
+
+        .degree {
+            margin-bottom: 1.5rem;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .hero h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="container">
+            <h1>Gaurav Bora</h1>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Digital Business & Entrepreneurship Student</h2>
+            <p>IIM Bangalore | Driving Innovation in Digital Ecosystems</p>
+        </div>
+    </section>
+
+    <section class="container education">
+        <h3>Education</h3>
+        <div class="degree">
+            <h4>Bachelor of Business Administration</h4>
+            <p>Digital Business & Entrepreneurship</p>
+            <p>IIM Bangalore</p>
+            <p>2023-Present</p>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>📧</span>
+                <a href="mailto:gaurav.bora24@iimb.ac.in">gaurav.bora24@iimb.ac.in</a>
+            </div>
+            <div class="contact-item">
+                <span>📱</span>
+                <a href="tel:+919957117409">+91 99571 17409</a>
+            </div>
+            <div class="contact-item">
+                <span>📍</span>
+                <p>Guwahati, Assam, India</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
